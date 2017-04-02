@@ -1,11 +1,11 @@
 # Build neural network to predict daily bike rental ridership.
 
 
-<img src="https://github.com/Lanbig/Project_1_first-neural-network/blob/master/assets/neural_network.png)" width="200">
+<img src="https://github.com/Lanbig/Project_1_first-neural-network/blob/master/assets/neural_network.png" width="400">
 
 This dataset has the number of riders for each hour of each day from January 1 2011 to December 31 2012. The number of riders is split between casual and registered, summed up in the cnt column. 
 
-<img src="https://github.com/Lanbig/Project_1_first-neural-network/blob/master/assets/data.png" width="200">
+<img src="https://github.com/Lanbig/Project_1_first-neural-network/blob/master/assets/data.png" width="400">
 
 ## Tasks for implementing models:
 * Implement the sigmoid function to use as the activation function. Set self.activation_function in __init__ to your sigmoid function.
@@ -27,13 +27,12 @@ Choose the number of hidden nodes
 * hidden_nodes = 30
 * output_nodes = 1
 
-![Training loss VS Validation loss](https://github.com/Lanbig/Project_1_first-neural-network/blob/master/assets/loss_function.png?raw=true)
-
+<img src="https://github.com/Lanbig/Project_1_first-neural-network/blob/master/assets/loss_function.png" width="400">
 
 ## Check out your predictions
 Here, use the test data to view how well your network is modeling the data. If something is completely wrong here, make sure each step in your network is implemented correctly.
 
+<img src="https://github.com/Lanbig/Project_1_first-neural-network/blob/master/assets/predicted_rides.png" width="400">
 
-![Predicted VS Actual values](https://github.com/Lanbig/Project_1_first-neural-network/blob/master/assets/predicted_rides.png?raw=true)
 
 The model predict the data pretty well, except for the last ten days. These days was the holiday and the demand for bike was different from the regular days.
