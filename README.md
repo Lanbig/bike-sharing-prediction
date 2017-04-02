@@ -1,11 +1,11 @@
 # Build neural network to predict daily bike rental ridership.
 
-![Neural Network](https://github.com/Lanbig/Project_1_first-neural-network/blob/master/assets/neural_network.png?raw=true)
+
+<img src="https://github.com/Lanbig/Project_1_first-neural-network/blob/master/assets/neural_network.png)" width="200">
 
 This dataset has the number of riders for each hour of each day from January 1 2011 to December 31 2012. The number of riders is split between casual and registered, summed up in the cnt column. 
 
-![data - number of rides](https://github.com/Lanbig/Project_1_first-neural-network/blob/master/assets/data.png?raw=true)
-
+<img src="https://github.com/Lanbig/Project_1_first-neural-network/blob/master/assets/data.png" width="200">
 
 ## Tasks for implementing models:
 * Implement the sigmoid function to use as the activation function. Set self.activation_function in __init__ to your sigmoid function.
