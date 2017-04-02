@@ -1,8 +1,8 @@
 # Build neural network to predict daily bike rental ridership.
 
-<div style="text-align:center">
+<p align="center">
 <img src="https://github.com/Lanbig/Project_1_first-neural-network/blob/master/assets/neural_network.png" width="400">
-</div>
+</p>
 
 This dataset has the number of riders for each hour of each day from January 1 2011 to December 31 2012. The number of riders is split between casual and registered, summed up in the cnt column. 
 
